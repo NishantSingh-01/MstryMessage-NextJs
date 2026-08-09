@@ -4,7 +4,6 @@ import mongoose from "mongoose"
 type ConnectionObject = {
     isConnected?: number
 }
-
 const connection: ConnectionObject = {}
 
 async function dbConnect(): Promise<void> {
@@ -24,6 +23,6 @@ async function dbConnect(): Promise<void> {
         console.error("Error connecting to Database:", error)
         process.exit(1)
     }
-} 
+}
 
 export default dbConnect
