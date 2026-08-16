@@ -5,5 +5,5 @@ export interface ApiResponse {
     message:string ;
     isAcceptingMessage?:boolean ;
     data?: any ;
-    meassage ?:Array<Message> ;
+    messages ?:Array<Message> ;
 }

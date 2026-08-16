@@ -1,8 +1,6 @@
 import resend from '@/lib/resend'
 import { EmailTemplate } from '@/helper/verificationEmail'
-
 import { ApiResponse } from '@/types/apiResponse'
-import { email, string, success } from 'zod'
 
 
 export async function sendVerificationEmail(
